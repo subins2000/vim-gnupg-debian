@@ -1,0 +1,4 @@
+addon: gnupg
+description: "transparent editing of gpg encrypted files"
+files:
+  - plugin/gnupg.vim

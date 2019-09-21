@@ -1,0 +1,20 @@
+Source: vim-gnupg
+Section: main
+Priority: optional
+Maintainer: Subin Siby <mail@subinsb.com>
+Build-Depends: debhelper (>=10)
+Standards-Version: 4.0.0
+Homepage: https://github.com/jamessan/vim-gnupg
+Vcs-Git: https://github.com/jamessan/vim-gnupg.git
+Vcs-Browser: https://github.com/jamessan/vim-gnupg
+
+Package: vim-gnupg
+Architecture: any
+Depends: vim, vim-addon-manager, ${misc:Depends}
+Description: Implements transparent editing of gpg encrypted files in vim
+ This script implements transparent editing of gpg encrypted files. The
+ filename must have a .gpg, .pgp or .asc suffix. When opening such a
+ file the content is decrypted, when opening a new file the script will
+ ask for the recipients of the encrypted file. The file content will
+ be encrypted to all recipients before it is written. The script turns
+ off viminfo, swapfile, and undofile to increase security.

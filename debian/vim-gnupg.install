@@ -1,0 +1,4 @@
+doc/                          usr/share/vim/addons
+plugin/                       usr/share/vim/addons
+autoload/                     usr/share/vim/addons
+debian/vim-gnupg.yaml         usr/share/vim/registry
