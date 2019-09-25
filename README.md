@@ -1,3 +1,7 @@
+# Debian packaging of vim-gnupg plugin
+
+I wanted to try packaging the `vim-gnupg` plugin. But turns out, it's already package and available in `vim-scripts` package in Debian. Well repo ഇവിടെ കിടക്കട്ടെ.
+
 # vim-gnupg
 
 This script implements transparent editing of gpg encrypted files. The filename
